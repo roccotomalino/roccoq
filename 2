@@ -1,1 +1,16 @@
+import pandas as pd
+df=pd.read_csv('studentsPerformance.csv')   
+print(df[['test preparation course', 'reading score', 'writing score']])
+
+print(df.shape)
+
+print(df.info())
+
+print(df.dtypes)
+
+print(df[['writing score']])
+
+print(df.shape)
+
+print(df.dtypes) 
 
